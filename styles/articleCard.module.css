@@ -11,13 +11,13 @@
   width: 90%;
 }
 .title {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   font-weight: 600;
 }
 .card > p:last-child {
   color: #6f6f6f;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .card > p:last-child > span {
   font-weight: normal;
