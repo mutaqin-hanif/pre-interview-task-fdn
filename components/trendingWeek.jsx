@@ -7,10 +7,10 @@ export default function TrendingWeek({ matches = false }) {
     <div className={styles.card}>
       <Image
         src="https://static.femaledaily.com/dyn/640/images/prod-pics/product_1558000129_YOU_MAKEUP_800x800.png"
-        width={150}
+        width={125}
         height={220}
       />
-      <p>Matches Skin Type</p>
+      {matches && <p>Matches Skin Type</p>}
       <div className={styles.rating}>
         <p>4.9</p>
         <Rating value={4.9} />

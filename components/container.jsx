@@ -4,7 +4,7 @@ export default function Container({ children }) {
       style={{
         display: "flex",
         marginInline: "auto",
-        maxWidth: "min-content",
+        maxWidth: "80%",
         flexDirection: "column",
         alignItems: "center",
         marginBlock: "1rem",

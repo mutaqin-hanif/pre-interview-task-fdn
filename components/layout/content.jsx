@@ -115,16 +115,19 @@ export default function Content() {
             })}
           </div>
         </Section>
-        <Section title="Top Brands" subtitle="We all know and love">
+        <Section
+          title="Trending This Week"
+          subtitle="See our weekly most reviewed products"
+        >
           <div
             style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
           >
             <div style={{ display: "flex", gap: "1rem" }}>
-              {Array.from({ length: 6 }, (_, i) => {
+              {Array.from({ length: 5 }, (_, i) => {
                 return <TrendingWeek key={i} />;
               })}
             </div>
-            <Pagination total={2} current={1} />
+            <Pagination total={2} current={1} setCurrent={setCurrent} />
           </div>
         </Section>
         <Section title="Top Brands" subtitle="We all know and love">
