@@ -1,0 +1,31 @@
+.product {
+  padding: 1.2rem;
+  height: 20rem;
+}
+.product > div {
+  margin-bottom: 1rem;
+}
+.user {
+  display: flex;
+  margin-top: -2rem;
+  margin-left: 1rem;
+  color: #606060;
+}
+.card {
+  margin-top: 3.5rem;
+  width: 14rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.5rem;
+}
+.text > p:first-child {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.bold {
+  font-weight: 700;
+}
+.rating {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}

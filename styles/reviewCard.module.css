@@ -1,0 +1,43 @@
+.card {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 3px solid #d6d6d6;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 16rem;
+  margin-bottom: 5rem;
+}
+.product {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 3px solid #d6d6d6;
+}
+.product > div > p:first-child {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.image {
+  width: 86px;
+}
+.review {
+  margin-top: 0.2rem;
+}
+.review > div {
+  display: flex;
+  justify-content: space-between;
+}
+.review > p {
+  font-size: 0.9rem;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #606060;
+}
+.bold {
+  font-weight: 600;
+  font-size: 1.2rem;
+}

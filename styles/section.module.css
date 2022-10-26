@@ -1,0 +1,23 @@
+.section {
+  width: 100%;
+}
+.section > h1 {
+  font-weight: 600;
+}
+.section > p {
+  color: #a9a9a9;
+  font-size: 1.25rem;
+}
+.section > div {
+  display: flex;
+  gap: 1rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header > a {
+  color: #dc294f;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
