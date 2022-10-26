@@ -13,6 +13,7 @@ import Container from "components/container";
 
 import { getData } from "redux/dataSlice";
 import { useDispatch, useSelector } from "react-redux";
+import VideoCard from "components/videoCard";
 
 export default function Content() {
   const [current, setCurrent] = useState(1);
@@ -113,6 +114,26 @@ export default function Content() {
             {Array.from({ length: 4 }, (_, i) => {
               return <PopularCard key={i} />;
             })}
+          </div>
+        </Section>
+        <Section title="Latest Videos" subtitle="Watch and learn, ladies">
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr .6fr",
+              gap: "1rem",
+              width: "100%",
+              marginTop: "1rem",
+            }}
+          >
+            <VideoCard />
+            <div
+              style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
+            >
+              {Array.from({ length: 2 }, (_, i) => {
+                return <VideoCard key={i} />;
+              })}
+            </div>
           </div>
         </Section>
         <Section
